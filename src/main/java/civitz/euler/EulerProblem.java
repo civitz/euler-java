@@ -1,9 +1,9 @@
 package civitz.euler;
 
-abstract class EulerProblem<T> {
+abstract class EulerProblem {
     abstract int number();
 
-    abstract T calculate();
+    abstract Number calculate();
 
     public String toString() {
         return "Euler problem " + number() + " result is: " + calculate();

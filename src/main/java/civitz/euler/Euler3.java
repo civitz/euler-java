@@ -11,7 +11,7 @@ import org.junit.Test;
  * 
  * What is the largest prime factor of the number 600851475143 ?
  */
-public class Euler3 extends EulerProblem<Long> {
+public class Euler3 extends EulerProblem {
 	int number() {
 		return 3;
 	}
